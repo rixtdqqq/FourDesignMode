@@ -10,7 +10,7 @@ package com.zhuyx.observermode.base;
 
 /**
  * @author Administrator
- *
+ * 观察者
  */
 public interface IFans {
 	

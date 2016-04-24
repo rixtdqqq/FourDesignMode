@@ -15,7 +15,7 @@ import com.zhuyx.observermode.base.IFans;
 
 /**
  * @author Administrator
- *	观察者
+ *	被观察者
  */
 public class IPhone {
 	
@@ -23,7 +23,11 @@ public class IPhone {
 	
 	public void register(IFans fans){
 		list.add(fans);
-		System.out.println("又一个苹果被预订了,现在总共有："+list.size()+"个人预订了...");
+		if (list.size() <= 1) {
+			System.out.println("一个苹果被预订了,现在总共有："+list.size()+"个人预订了...");
+		} else {
+			System.out.println("又一个苹果被预订了,现在总共有："+list.size()+"个人预订了...");
+		}
 	}
 	
 	public void remind(){

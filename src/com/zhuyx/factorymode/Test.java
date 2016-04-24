@@ -21,6 +21,7 @@ public class Test {
 		Location location = LocationFactory.getInstance("xiaomi");
 		location.getCityName(10, 10);
 		location.getPosition();
+		
 	}
 
 }

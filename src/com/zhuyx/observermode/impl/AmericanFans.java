@@ -1,11 +1,3 @@
-/**
- * 
- * AmericanFans.java
- * Administrator
- * 2016年4月24日 下午10:58:55
- * 
- * 
- */
 package com.zhuyx.observermode.impl;
 
 import com.zhuyx.observermode.base.IFans;
